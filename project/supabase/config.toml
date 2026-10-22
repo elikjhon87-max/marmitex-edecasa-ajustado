@@ -1,0 +1,10 @@
+# Supabase config
+
+[functions.send-push]
+verify_jwt = true
+
+[functions.delivery-route]
+verify_jwt = false
+
+[functions.driver-route-batch]
+verify_jwt = false
